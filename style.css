@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+header{
+    font-size: 36px;
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 236, 237);
+    padding: 1.25em 0 1.5em 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 36px;
+}
+.body-content{
+    height: 650px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+}
+.body-content .menu{
+    background-color: #4e5c63;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    font-family: 'Merriweather', serif;
+
+}
+.body-content .menu .menu-list{
+    color: #ffffff;
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 210px;
+
+}
+.body-content .menu .menu-list .menu-list-icon{
+    margin-bottom: 5px;
+}
+.body-content .menu .menu-list li .menu-button::before{
+    content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	transition: 0.5s;
+	filter: blur(0px);
+}
+.body-content .menu .menu-list li .menu-button:hover,
+.body-content .menu .menu-list li .menu-button.hover
+{
+    background-color: #77d0d0;
+    letter-spacing: 3px;
+}
+.body-content .menu .menu-list:hover li .menu-button::before{
+    transform: skewX(45deg) translate(200px);
+}
+
+.body-content .menu .menu-list li .menu-button{
+    text-decoration: none;
+    color: #404040;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    height: 150px;
+    width: 190px;
+
+	background: rgba(255, 255, 255, 0.05);
+	box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 30px;
+	padding: 10px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	overflow: hidden;
+	color: #fff;
+	font-weight: 400px;
+
+    
+}
+
+.body-content #living_room .main_content{
+    right: 0;
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(136, 145, 142);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.body-content #kitchen_room .main_content{
+    right: 0;
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(136, 145, 142);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.body-content #bed_room .main_content{
+    right: 0;
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    background-color:  rgb(136, 145, 142);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.main_content .sensor .sensor-list{
+    list-style: none;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.main_content .sensor .sensor-list li{
+    text-decoration: none;
+    color: #6e0101;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0px;
+    justify-content: center;
+    margin-top: 10px;
+    height: 200px;
+    width: 30%;
+    flex-direction: column; 
+    border: #ccc solid 0px;
+    font-size: 26px;
+}
+
+.main_content .sensor .sensor-list .sensor-list-icon{
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+#bed_room .main_content .control .control-list-5,
+#kitchen_room .main_content .control .control-list-3,
+#living_room .main_content .control .control-list-1
+{
+    list-style: none;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    bottom: 120px;
+    margin-left: 65px;
+}
+
+#living_room .main_content .control .control-list-1 #light-img,
+#living_room .main_content .control .control-list-1 #fan-img,
+#living_room .main_content .control .control-list-1 #tv-img,
+
+#kitchen_room .main_content .control .control-list-3 #oven-img,
+#kitchen_room .main_content .control .control-list-3 #fan2-img,
+#kitchen_room .main_content .control .control-list-3 #light2-img,
+
+#bed_room .main_content .control .control-list-5 #air2-img,
+#bed_room .main_content .control .control-list-5 #light3-img,
+#bed_room .main_content .control .control-list-5 #fan3-img
+
+{
+    width:80px;
+    margin-bottom: 20px;
+}
+#device1-content,
+#device2-content,
+#device3-content,
+
+#device7-content,
+#device8-content,
+#device9-content,
+
+#device13-content,
+#device14-content,
+#device15-content
+
+{
+    margin-top:0px;
+    margin-bottom: 15px;
+    box-sizing: content-box;
+    
+}
+
+#living_room .main_content .control .control-list-1 .control-content,
+#kitchen_room .main_content .control .control-list-3 .control-content,
+#bed_room .main_content .control .control-list-5 .control-content
+
+{
+    line-height: 33px;
+}
+
+#living_room .main_content .control .control-list-1 li,
+
+#kitchen_room .main_content .control .control-list-3 li,
+
+#bed_room .main_content .control .control-list-5 li
+
+{
+    text-decoration: none;
+    color: #404040;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50px;
+    justify-content: center;
+    height: 200px;
+    width: 28%;
+    flex-direction: column;
+    border: #ccc solid 5px;
+    font-size: 18px;
+    margin-right: 42px;
+    align-content: space-around;
+    font-family: 'Merriweather', serif;
+
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+  
+  /* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: #2196F3;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+  /* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+
+footer{
+    font-size: 22px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #77d0d0;
+    height: 5vh;
+    padding: 1em 0 em 0;
+}
+
+
+

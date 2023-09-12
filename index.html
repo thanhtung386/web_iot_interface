@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SmartHome</title>
+        <link REL="icon" href="https://cdn-icons-png.flaticon.com/512/1299/1299961.png">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css"
+        href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <img style="width: 70px;height: 70px;" src="./img/logo.jpg" alt="">
+             Smart Home
+        </header>
+        <div class="body-content">
+            <div class = "menu">
+                <ul class = "menu-list">
+                    <ul class = "menu-list">
+                        <li><a class ="menu-button" href="#" onclick="switchPage('living_room')"><i class="fas fa-couch" style="font-size: 48px;color: gray"></i>LivingRoom</a></li>
+                        <li><a class ="menu-button" href="#" onclick="switchPage('kitchen_room')"><i class="fas fa-bed" style="font-size: 48px;color: gray"></i>Kitchen</a></li>
+                        <li><a class ="menu-button" href="#" onclick="switchPage('bed_room')"><i class="fas fa-kitchen-set" style="font-size: 48px;color: gray"></i>BedRoom</a></li>
+                    </ul>
+                </ul>
+            </div>
+            <section id = "living_room">
+                <div class = "main_content">
+                    <div class = sensor>
+                        <ul class = "sensor-list">
+                            <li><img class = "sensor-list-icon" src="./img/temperature.png" alt=""> <span class = "sensor-list-content">Temperature: <span id="nhietdo1">None</span><span> ℃</span></span></li>
+                            <li><img class = "sensor-list-icon" src="./img/humidity.png" alt=""> <span class = "sensor-list-content">Humidity: <span id="doam1">None</span><span> %</span></span></li>
+                            <li><img class = "sensor-list-icon" src="./img/gas.png" alt=""> <span class = "sensor-list-content">Gas: <span id="khigas1">None</span><span> %</span></span></li>
+                            <li><img class = "sensor-list-icon" src="./img/contrast.png" alt=""><span class = "sensor-list-content">Light: <span id="anhsang1">None</span></span></li>
+                        </ul>
+                    </div>
+                    <div class = "control">
+                        <ul class = "control-list-1">
+                            <li>
+                                <h3 id = "device1-content">Device 1: TV</h3>
+                                <img id = "tv-img" src="./img/icons8-tv-off-100.png" alt="">
+                                <span class = "control-content">
+                                    <label class="switch">
+                                        <input id ="tv-switch" type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                    <span id = "tv-state">OFF</span>
+                                </span>
+                            </li>
+                            <li>
+                                <h3 id = "device2-content">Device 2: Light</h3>
+                                <img id = "light-img" src="./img/icons8-light-off-80.png" alt="">
+                                <span class = "control-content">
+                                    <label class="switch">
+                                        <input id ="light-switch" type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                    <span id = "light-state">OFF</span>
+
+                                </span>
+                            </li>
+                            <li>
+                                <h3 id = "device3-content">Device 3: Fan</h3>
+                                <img id = "fan-img" src="./img/icons8-fan-off-96.png" alt="">
+                                <span class = "control-content">
+                                    <label class="switch">
+                                        <input id ="fan-switch" type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                    <span id = "fan-state">OFF</span>
+
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id = "kitchen_room" style="display:none">
+                <div class = "main_content">
+                    <div class = sensor>
+                        <ul class = "sensor-list">
+                            <li><img class = "sensor-list-icon" src="./img/temperature.png" alt=""> <span class = "sensor-list-content">Temperature: <span id="nhietdo2">None</span><span> ℃</span></span></li>
+                            <li><img class = "sensor-list-icon" src="./img/humidity.png" alt=""> <span class = "sensor-list-content">Humidity: <span id="doam2">None</span><span> %</span></span></li>
+                            <li><img class = "sensor-list-icon" src="./img/gas.png" alt=""> <span class = "sensor-list-content">Gas: <span id="khigas2">None</span><span> %</span></span></li>
+                            <li><img class = "sensor-list-icon" src="./img/contrast.png" alt=""><span class = "sensor-list-content">Light: <span id="anhsang2">None</span></span></li>
+                        </ul>
+                    </div>
+                    <div class = "control">
+                        <ul class = "control-list-3">
+                            <li>
+                                <h3 id = "device7-content">Device 1: Frigde</h3>
+                                <img id = "oven-img" src="./img/stove_off.png" alt="">
+                                <span class = "control-content">
+                                    <label class="switch">
+                                        <input id ="oven-switch" type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                    <span id = "oven-state">OFF</span>
+                                </span>
+                            </li>
+                            <li>
+                                <h3 id = "device8-content">Device 2: LightBulb</h3>
+                                <img id = "light2-img" src="./img/icons8-light-off-80.png" alt="">
+                                <span class = "control-content">
+                                    <label class="switch">
+                                        <input id ="light2-switch" type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                    <span id = "light2-state">OFF</span>
+
+                                </span>
+                            </li>
+                            <li>
+                                <h3 id = "device9-content">Device 3: Fan</h3>
+                                <img id = "fan2-img" src="./img/icons8-fan-off-96.png" alt="">
+                                <span class = "control-content">
+                                    <label class="switch">
+                                        <input id ="fan2-switch" type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                    <span id = "fan2-state">OFF</span>
+
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id = "bed_room" style="display:none">
+                <div class = "main_content">
+                    <div class = sensor>
+                        <ul class = "sensor-list">
+                            <li><img class = "sensor-list-icon" src="./img/temperature.png" alt=""> <span class = "sensor-list-content">Temperature: <span id="nhietdo3">None</span><span> ℃</span></span></li>
+                            <li><img class = "sensor-list-icon" src="./img/humidity.png" alt=""> <span class = "sensor-list-content">Humidity: <span id="doam3">None</span><span> %</span></span></li>
+                            <li><img class = "sensor-list-icon" src="./img/gas.png" alt=""> <span class = "sensor-list-content">Gas: <span id="khigas3">None</span><span> %</span></span></li>
+                            <li><img class = "sensor-list-icon" src="./img/contrast.png" alt=""><span class = "sensor-list-content">Light: <span id="anhsang3">None</span></span></li>
+                        </ul>
+                    </div>
+                    <div class = "control">
+                        <ul class = "control-list-5">
+                            <li>
+                                <h3 id = "device13-content">Device 1: Air Conditioner</h3>
+                                <img id = "air2-img" src="./img/air-conditioner-off.png" alt="">
+                                <span class = "control-content">
+                                    <label class="switch">
+                                        <input id ="air2-switch" type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                    <span id = "air2-state">OFF</span>
+                                </span>
+                            </li>
+                            <li>
+                                <h3 id = "device14-content">Device 2: LightBulb</h3>
+                                <img id = "light3-img" src="./img/icons8-light-off-80.png" alt="">
+                                <span class = "control-content">
+                                    <label class="switch">
+                                        <input id ="light3-switch" type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                    <span id = "light3-state">OFF</span>
+                                    
+                                </span>
+                            </li>
+                            <li>
+                                <h3 id = "device15-content">Device 3: Fan</h3>
+                                <img id = "fan3-img" src="./img/icons8-fan-off-96.png" alt="">
+                                <span class = "control-content">
+                                    <label class="switch">
+                                        <input id ="fan3-switch" type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                    <span id = "fan3-state">OFF</span>
+
+                                    </span>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+        <footer>
+            Trần Thanh Tùng - 20119386
+        </footer>   
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script> 
+        <script src="script.js"></script>
+    </body>
+</html>
