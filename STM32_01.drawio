@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-06T13:22:12.048Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="KW0cMTQBoOKHWsFiIeEU" version="24.4.15" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-06-06T13:23:54.183Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="A23Dp-t9vEG3ljUC05qX" version="24.4.15" type="github" pages="6">
   <diagram name="STM32" id="g0ncL3MHdH6hdmwCsweq">
-    <mxGraphModel dx="1467" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1035" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -130,7 +130,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lJQ5qOvf3uuoS-_8TY2C-9" value="Flash this data to FOTA firmware" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="625" y="1258" width="140" height="60" as="geometry" />
+          <mxGeometry x="625" y="1270" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="giOkMbOp3hleeDVfrWvn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontStyle=1" parent="1" source="lJQ5qOvf3uuoS-_8TY2C-12" target="giOkMbOp3hleeDVfrWvn-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
