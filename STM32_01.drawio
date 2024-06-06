@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-06T13:23:54.183Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="A23Dp-t9vEG3ljUC05qX" version="24.4.15" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-06-06T13:27:23.057Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="fvcu4DJ_6DJ-od0uwX97" version="24.4.15" type="github" pages="6">
   <diagram name="STM32" id="g0ncL3MHdH6hdmwCsweq">
-    <mxGraphModel dx="1035" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1956" dy="1040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,13 +40,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lJQ5qOvf3uuoS-_8TY2C-1" value="Start" style="whiteSpace=wrap;html=1;strokeWidth=1;shape=mxgraph.flowchart.terminator;fontSize=14;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="645" y="277" width="100" height="50" as="geometry" />
+          <mxGeometry x="645" y="202" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fCJrFA04E1OlTgL_K1EE-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="lJQ5qOvf3uuoS-_8TY2C-2" target="fCJrFA04E1OlTgL_K1EE-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lJQ5qOvf3uuoS-_8TY2C-2" value="Initialize CAN" style="whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="635" y="357" width="120" height="60" as="geometry" />
+          <mxGeometry x="635" y="282" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fCJrFA04E1OlTgL_K1EE-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="lJQ5qOvf3uuoS-_8TY2C-4" target="fCJrFA04E1OlTgL_K1EE-7">
           <mxGeometry relative="1" as="geometry" />
@@ -58,9 +58,9 @@
         </mxCell>
         <mxCell id="fCJrFA04E1OlTgL_K1EE-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;fontSize=14;fontStyle=1" edge="1" parent="1" source="lJQ5qOvf3uuoS-_8TY2C-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1020" y="825" as="targetPoint" />
+            <mxPoint x="1020" y="750" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1020" y="825" />
+              <mxPoint x="1020" y="750" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -70,7 +70,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lJQ5qOvf3uuoS-_8TY2C-4" value="Has CAN data?" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;shape=mxgraph.flowchart.decision;fontSize=14;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="597.5" y="780" width="195" height="90" as="geometry" />
+          <mxGeometry x="597.5" y="705" width="195" height="90" as="geometry" />
         </mxCell>
         <mxCell id="lJQ5qOvf3uuoS-_8TY2C-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontStyle=1" parent="1" source="lJQ5qOvf3uuoS-_8TY2C-5" target="lJQ5qOvf3uuoS-_8TY2C-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -96,7 +96,7 @@
             <mxPoint x="940" y="600" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1020" y="1068" />
-              <mxPoint x="1020" y="610" />
+              <mxPoint x="1020" y="535" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -139,7 +139,7 @@
           <mxGeometry x="635" y="1760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lJQ5qOvf3uuoS-_8TY2C-28" value="Bootloader" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="410" y="150" width="60" height="30" as="geometry" />
+          <mxGeometry x="660" y="75" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="giOkMbOp3hleeDVfrWvn-3" value="End" style="whiteSpace=wrap;html=1;strokeWidth=1;shape=mxgraph.flowchart.terminator;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="645" y="1850" width="100" height="50" as="geometry" />
@@ -148,7 +148,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fCJrFA04E1OlTgL_K1EE-1" value="Initialize timeout counter" style="whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="635" y="437" width="120" height="60" as="geometry" />
+          <mxGeometry x="635" y="362" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fCJrFA04E1OlTgL_K1EE-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="fCJrFA04E1OlTgL_K1EE-4" target="lJQ5qOvf3uuoS-_8TY2C-4">
           <mxGeometry relative="1" as="geometry" />
@@ -162,7 +162,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="690" y="1740" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="500" y="677" />
+              <mxPoint x="577" y="600" />
+              <mxPoint x="500" y="600" />
               <mxPoint x="500" y="1740" />
             </Array>
           </mxGeometry>
@@ -173,19 +174,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fCJrFA04E1OlTgL_K1EE-4" value="Counter is timeout?" style="whiteSpace=wrap;html=1;strokeWidth=1;shape=mxgraph.flowchart.decision;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="577.5" y="627" width="235" height="100" as="geometry" />
+          <mxGeometry x="577.5" y="550" width="235" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="fCJrFA04E1OlTgL_K1EE-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="fCJrFA04E1OlTgL_K1EE-7" target="lJQ5qOvf3uuoS-_8TY2C-5">
+        <mxCell id="fCJrFA04E1OlTgL_K1EE-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fCJrFA04E1OlTgL_K1EE-7" target="fCJrFA04E1OlTgL_K1EE-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fCJrFA04E1OlTgL_K1EE-7" value="Reset timeout" style="whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="635" y="920" width="120" height="60" as="geometry" />
+          <mxGeometry x="635" y="845" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fCJrFA04E1OlTgL_K1EE-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="fCJrFA04E1OlTgL_K1EE-12" target="fCJrFA04E1OlTgL_K1EE-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fCJrFA04E1OlTgL_K1EE-12" value="Erase FOTA firmware" style="whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="635" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="635" y="445" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fCJrFA04E1OlTgL_K1EE-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="fCJrFA04E1OlTgL_K1EE-15" target="fCJrFA04E1OlTgL_K1EE-16">
           <mxGeometry relative="1" as="geometry" />
@@ -228,11 +229,17 @@
         </mxCell>
         <mxCell id="fCJrFA04E1OlTgL_K1EE-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fCJrFA04E1OlTgL_K1EE-47">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="700" y="610.1904761904761" as="targetPoint" />
+            <mxPoint x="700" y="535.1904761904761" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fCJrFA04E1OlTgL_K1EE-47" value="Increase counter" style="whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="812.5" y="580" width="120" height="60" as="geometry" />
+          <mxGeometry x="812.5" y="505" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCJrFA04E1OlTgL_K1EE-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fCJrFA04E1OlTgL_K1EE-51" target="lJQ5qOvf3uuoS-_8TY2C-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fCJrFA04E1OlTgL_K1EE-51" value="Receive CAN data" style="whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="635" y="940" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
