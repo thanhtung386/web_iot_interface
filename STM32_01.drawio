@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-08T11:10:33.075Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="vP_3x8SxqLbMChlnUY7G" version="24.5.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-06-08T11:43:28.420Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="gpdVuc5f7o4nB9V-xLK0" version="24.5.2" type="github" pages="7">
   <diagram name="STM32" id="g0ncL3MHdH6hdmwCsweq">
     <mxGraphModel dx="1760" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -398,98 +398,201 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ImVMADLwUics2imj7fCV" name="FOTA__CONNECT_Lưu đồ">
-    <mxGraphModel dx="1173" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="5867" dy="3120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9wDtwbonmJ5hOTDrQ2B9-3" target="9wDtwbonmJ5hOTDrQ2B9-4" edge="1">
+        <mxCell id="0MoHSam02g4XPCsN_6J7-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=30;strokeWidth=2;" edge="1" parent="1" source="9wDtwbonmJ5hOTDrQ2B9-3" target="9wDtwbonmJ5hOTDrQ2B9-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-3" value="Lấy tên firmware cần download" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="220" width="120" height="60" as="geometry" />
+        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-3" value="Get name firmware from Firebase" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" parent="1" vertex="1">
+          <mxGeometry x="300" y="1200" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9wDtwbonmJ5hOTDrQ2B9-4" target="9wDtwbonmJ5hOTDrQ2B9-7" edge="1">
+        <mxCell id="0MoHSam02g4XPCsN_6J7-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=30;strokeWidth=2;" edge="1" parent="1" source="9wDtwbonmJ5hOTDrQ2B9-4" target="9wDtwbonmJ5hOTDrQ2B9-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9wDtwbonmJ5hOTDrQ2B9-4" target="9wDtwbonmJ5hOTDrQ2B9-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-4" value="Firmware có trùng lặp&lt;div&gt;với firmware đang chạy?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="95" y="310" width="190" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9wDtwbonmJ5hOTDrQ2B9-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="460" as="targetPoint" />
+        <mxCell id="0MoHSam02g4XPCsN_6J7-44" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=30;" vertex="1" connectable="0" parent="0MoHSam02g4XPCsN_6J7-34">
+          <mxGeometry x="0.0694" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9wDtwbonmJ5hOTDrQ2B9-5" target="9wDtwbonmJ5hOTDrQ2B9-14" edge="1">
+        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-4" value="&amp;nbsp;Firmware match&lt;br style=&quot;font-size: 30px;&quot;&gt;running firmware?" style="rhombus;whiteSpace=wrap;html=1;fontSize=30;" parent="1" vertex="1">
+          <mxGeometry x="240" y="1380" width="400" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-7" value="Send rejection for update to Firebase" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" parent="1" vertex="1">
+          <mxGeometry x="770" y="1380" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=30;strokeWidth=2;" edge="1" parent="1" source="9wDtwbonmJ5hOTDrQ2B9-12" target="9wDtwbonmJ5hOTDrQ2B9-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-5" value="Kiểm tra xem firmware đã&lt;div&gt;&amp;nbsp;tải về trước đó chưa?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="75" y="420" width="230" height="80" as="geometry" />
+        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-12" value="Download firmware to local" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" parent="1" vertex="1">
+          <mxGeometry x="770" y="1800" width="260" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="9wDtwbonmJ5hOTDrQ2B9-7" edge="1">
+        <mxCell id="0MoHSam02g4XPCsN_6J7-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=30;strokeWidth=2;" edge="1" parent="1" source="9wDtwbonmJ5hOTDrQ2B9-13" target="9wDtwbonmJ5hOTDrQ2B9-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-13" value="Begin" style="whiteSpace=wrap;html=1;strokeWidth=1;shape=mxgraph.flowchart.terminator;fontSize=30;" parent="1" vertex="1">
+          <mxGeometry x="365" y="1090" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=30;strokeWidth=2;" edge="1" parent="1" source="9wDtwbonmJ5hOTDrQ2B9-14" target="0MoHSam02g4XPCsN_6J7-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-14" value="Send update acceptance to Firebase" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" parent="1" vertex="1">
+          <mxGeometry x="310" y="1600" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=30;strokeWidth=2;" edge="1" parent="1" source="9wDtwbonmJ5hOTDrQ2B9-15" target="9wDtwbonmJ5hOTDrQ2B9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-15" value="Send firmware update info to FOTA Master" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" parent="1" vertex="1">
+          <mxGeometry x="770" y="1980" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=30;strokeWidth=2;" edge="1" parent="1" source="9wDtwbonmJ5hOTDrQ2B9-16" target="9wDtwbonmJ5hOTDrQ2B9-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-16" value="Get update progress data and failed status,&lt;br style=&quot;font-size: 30px;&quot;&gt;if available" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" parent="1" vertex="1">
+          <mxGeometry x="1135" y="1980" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;fontSize=30;strokeWidth=2;" edge="1" parent="1" source="9wDtwbonmJ5hOTDrQ2B9-17">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="190" y="200" as="targetPoint" />
+            <mxPoint x="1280" y="2380" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="490" y="350" />
-              <mxPoint x="490" y="200" />
+              <mxPoint x="1265" y="2380" />
+              <mxPoint x="1275" y="2380" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-7" value="Gửi phản hồi từ chối update lên firebase" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="320" width="120" height="60" as="geometry" />
+        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-17" value="Update data to Firebase" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" parent="1" vertex="1">
+          <mxGeometry x="1135" y="2180" width="260" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="9wDtwbonmJ5hOTDrQ2B9-12" edge="1">
+        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-28" value="End" style="whiteSpace=wrap;html=1;strokeWidth=1;shape=mxgraph.flowchart.terminator;fontSize=30;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="2460" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0MoHSam02g4XPCsN_6J7-2" target="0MoHSam02g4XPCsN_6J7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-2" value="Lấy tên firmware cần download" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0MoHSam02g4XPCsN_6J7-5" target="0MoHSam02g4XPCsN_6J7-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0MoHSam02g4XPCsN_6J7-5" target="0MoHSam02g4XPCsN_6J7-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-5" value="Firmware có trùng lặp&lt;div&gt;với firmware đang chạy?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="280" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0MoHSam02g4XPCsN_6J7-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="190" y="530" as="targetPoint" />
+            <mxPoint x="1395" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0MoHSam02g4XPCsN_6J7-8" target="0MoHSam02g4XPCsN_6J7-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-8" value="Kiểm tra xem firmware đã&lt;div&gt;&amp;nbsp;tải về trước đó chưa?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="390" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0MoHSam02g4XPCsN_6J7-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1205" y="170" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="520" y="460" />
-              <mxPoint x="520" y="530" />
+              <mxPoint x="1505" y="320" />
+              <mxPoint x="1505" y="170" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-12" value="Tải firmware về lưu ở local" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="430" width="120" height="60" as="geometry" />
+        <mxCell id="0MoHSam02g4XPCsN_6J7-10" value="Gửi phản hồi từ chối update lên firebase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1365" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9wDtwbonmJ5hOTDrQ2B9-13" target="9wDtwbonmJ5hOTDrQ2B9-3" edge="1">
+        <mxCell id="0MoHSam02g4XPCsN_6J7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0MoHSam02g4XPCsN_6J7-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1205" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1535" y="430" />
+              <mxPoint x="1535" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-12" value="Tải firmware về lưu ở local" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1395" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0MoHSam02g4XPCsN_6J7-14" target="0MoHSam02g4XPCsN_6J7-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-13" value="Start" style="whiteSpace=wrap;html=1;strokeWidth=1;shape=mxgraph.flowchart.terminator;" parent="1" vertex="1">
-          <mxGeometry x="140" y="140" width="100" height="50" as="geometry" />
+        <mxCell id="0MoHSam02g4XPCsN_6J7-14" value="Start" style="whiteSpace=wrap;html=1;strokeWidth=1;shape=mxgraph.flowchart.terminator;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="110" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9wDtwbonmJ5hOTDrQ2B9-14" target="9wDtwbonmJ5hOTDrQ2B9-15" edge="1">
+        <mxCell id="0MoHSam02g4XPCsN_6J7-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0MoHSam02g4XPCsN_6J7-16" target="0MoHSam02g4XPCsN_6J7-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-14" value="Gửi phản hồi chấp nhận update lên firebase" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="550" width="120" height="60" as="geometry" />
+        <mxCell id="0MoHSam02g4XPCsN_6J7-16" value="Gửi phản hồi chấp nhận update lên firebase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9wDtwbonmJ5hOTDrQ2B9-15" target="9wDtwbonmJ5hOTDrQ2B9-16" edge="1">
+        <mxCell id="0MoHSam02g4XPCsN_6J7-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0MoHSam02g4XPCsN_6J7-18" target="0MoHSam02g4XPCsN_6J7-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-15" value="Gửi thông tin firmware cần update cho FOTA Master" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="640" width="120" height="60" as="geometry" />
+        <mxCell id="0MoHSam02g4XPCsN_6J7-18" value="Gửi thông tin firmware cần update cho FOTA Master" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9wDtwbonmJ5hOTDrQ2B9-16" target="9wDtwbonmJ5hOTDrQ2B9-17" edge="1">
+        <mxCell id="0MoHSam02g4XPCsN_6J7-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0MoHSam02g4XPCsN_6J7-20" target="0MoHSam02g4XPCsN_6J7-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-16" value="Lấy dữ liệu tiến độ update" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="730" width="120" height="60" as="geometry" />
+        <mxCell id="0MoHSam02g4XPCsN_6J7-20" value="Lấy dữ liệu tiến độ update" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9wDtwbonmJ5hOTDrQ2B9-17" target="9wDtwbonmJ5hOTDrQ2B9-28" edge="1">
+        <mxCell id="0MoHSam02g4XPCsN_6J7-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0MoHSam02g4XPCsN_6J7-22" target="0MoHSam02g4XPCsN_6J7-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-17" value="Cập nhật tiến độ update lên firebase" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="820" width="120" height="60" as="geometry" />
+        <mxCell id="0MoHSam02g4XPCsN_6J7-22" value="Cập nhật tiến độ update lên firebase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9wDtwbonmJ5hOTDrQ2B9-28" value="Kết thúc" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="910" width="100" height="50" as="geometry" />
+        <mxCell id="0MoHSam02g4XPCsN_6J7-23" value="Kết thúc" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="880" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.538;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=30;strokeWidth=2;" edge="1" parent="1" source="9wDtwbonmJ5hOTDrQ2B9-4" target="9wDtwbonmJ5hOTDrQ2B9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-43" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=30;" vertex="1" connectable="0" parent="0MoHSam02g4XPCsN_6J7-32">
+          <mxGeometry x="-0.6369" y="1" relative="1" as="geometry">
+            <mxPoint x="27" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=30;strokeWidth=2;" edge="1" parent="1" source="0MoHSam02g4XPCsN_6J7-33" target="9wDtwbonmJ5hOTDrQ2B9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-45" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=30;" vertex="1" connectable="0" parent="0MoHSam02g4XPCsN_6J7-36">
+          <mxGeometry x="-0.7654" relative="1" as="geometry">
+            <mxPoint x="36" y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=30;strokeWidth=2;" edge="1" parent="1" source="0MoHSam02g4XPCsN_6J7-33" target="9wDtwbonmJ5hOTDrQ2B9-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-46" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=30;" vertex="1" connectable="0" parent="0MoHSam02g4XPCsN_6J7-37">
+          <mxGeometry x="-0.6992" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-33" value="Firmware previously&lt;br style=&quot;font-size: 30px;&quot;&gt;downloaded?" style="rhombus;whiteSpace=wrap;html=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1800" width="420" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0MoHSam02g4XPCsN_6J7-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=30;strokeWidth=2;" edge="1" parent="1" target="9wDtwbonmJ5hOTDrQ2B9-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1035" y="1445" as="sourcePoint" />
+            <mxPoint x="1280" y="2440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1535" y="1445" />
+              <mxPoint x="1535" y="2380" />
+              <mxPoint x="1265" y="2380" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="P8rngRQ1p3N2-64-hnHD" name="Page-5">
-    <mxGraphModel dx="1956" dy="1040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4400" dy="2340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
