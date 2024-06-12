@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T18:04:09.297Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="6PAv5W-nqRiGC6MOF5R1" version="24.5.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-06-12T18:05:06.276Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="tByv7-QH_dG209hCcAox" version="24.5.3" type="github" pages="8">
   <diagram name="STM32" id="g0ncL3MHdH6hdmwCsweq">
-    <mxGraphModel dx="2036" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1723" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -132,7 +132,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fCJrFA04E1OlTgL_K1EE-4" value="Counter is timeout?" style="whiteSpace=wrap;html=1;strokeWidth=1;shape=mxgraph.flowchart.decision;fontSize=30;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="906.25" y="570" width="272.5" height="110" as="geometry" />
+          <mxGeometry x="873.13" y="570" width="338.75" height="110" as="geometry" />
         </mxCell>
         <mxCell id="yGtO14_L8htIWSPfFKru-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=0;fontSize=30;strokeWidth=2;" parent="1" source="fCJrFA04E1OlTgL_K1EE-7" target="fCJrFA04E1OlTgL_K1EE-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
