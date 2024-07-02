@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T15:41:37.910Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="rbdQaETalRFGYmCK331Y" version="24.6.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-07-02T15:43:09.503Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Fa956tCfOv7DXr96EEAZ" version="24.6.4" type="github" pages="8">
   <diagram name="ECU_Flowchart" id="g0ncL3MHdH6hdmwCsweq">
-    <mxGraphModel dx="2200" dy="1170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1760" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,7 +56,7 @@
         <mxCell id="lJQ5qOvf3uuoS-_8TY2C-5" value="It contains&lt;br style=&quot;font-size: 30px;&quot;&gt;firmware size?" style="rhombus;whiteSpace=wrap;html=1;fontSize=30;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="864.63" y="1170" width="355" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="yGtO14_L8htIWSPfFKru-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontStyle=0;fontSize=30;strokeWidth=2;" parent="1" source="lJQ5qOvf3uuoS-_8TY2C-6" target="fCJrFA04E1OlTgL_K1EE-47" edge="1">
+        <mxCell id="yGtO14_L8htIWSPfFKru-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontStyle=0;fontSize=30;strokeWidth=2;" parent="1" source="lJQ5qOvf3uuoS-_8TY2C-6" target="fCJrFA04E1OlTgL_K1EE-47" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="570" y="1235" />
