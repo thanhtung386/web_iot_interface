@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-22T13:31:42.216Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="-wMQjkSgoI7w41k_67N-" version="24.6.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-07-02T15:40:40.953Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Dd6r4PCMxF_uu2MZFUZm" version="24.6.4" type="github" pages="8">
   <diagram name="ECU_Flowchart" id="g0ncL3MHdH6hdmwCsweq">
-    <mxGraphModel dx="2800" dy="1170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="2200" dy="1170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,14 +81,12 @@
             <mxPoint x="-20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yGtO14_L8htIWSPfFKru-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;fontStyle=0;strokeWidth=2;" parent="1" source="lJQ5qOvf3uuoS-_8TY2C-8" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="570" y="1450.3913043478262" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="96BJk-FDsPhYKM3DhWS0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lJQ5qOvf3uuoS-_8TY2C-8" target="96BJk-FDsPhYKM3DhWS0-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yGtO14_L8htIWSPfFKru-42" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=0;fontSize=30;" parent="yGtO14_L8htIWSPfFKru-41" vertex="1" connectable="0">
-          <mxGeometry x="0.2194" relative="1" as="geometry">
-            <mxPoint x="22" y="-1" as="offset" />
+        <mxCell id="96BJk-FDsPhYKM3DhWS0-10" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=30;" vertex="1" connectable="0" parent="96BJk-FDsPhYKM3DhWS0-5">
+          <mxGeometry x="-0.1195" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lJQ5qOvf3uuoS-_8TY2C-8" value="It contains data&lt;br style=&quot;font-size: 30px;&quot;&gt;of firmware?" style="rhombus;whiteSpace=wrap;html=1;fontSize=30;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
@@ -98,16 +96,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lJQ5qOvf3uuoS-_8TY2C-9" value="Flash this data to FOTA firmware" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="1617.5" y="170" width="210" height="110" as="geometry" />
+          <mxGeometry x="1671.5" y="170" width="210" height="110" as="geometry" />
         </mxCell>
         <mxCell id="yGtO14_L8htIWSPfFKru-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=0;fontSize=30;strokeWidth=2;" parent="1" source="lJQ5qOvf3uuoS-_8TY2C-12" target="giOkMbOp3hleeDVfrWvn-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lJQ5qOvf3uuoS-_8TY2C-12" value="Jump to application" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=30;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="1615" y="1120" width="215" height="90" as="geometry" />
+          <mxGeometry x="1669" y="1120" width="215" height="90" as="geometry" />
         </mxCell>
         <mxCell id="giOkMbOp3hleeDVfrWvn-3" value="End" style="whiteSpace=wrap;html=1;strokeWidth=1;shape=mxgraph.flowchart.terminator;fontSize=30;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="1672.5" y="1290" width="100" height="50" as="geometry" />
+          <mxGeometry x="1726.5" y="1290" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yGtO14_L8htIWSPfFKru-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=0;fontSize=30;" parent="1" source="fCJrFA04E1OlTgL_K1EE-1" target="fCJrFA04E1OlTgL_K1EE-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -123,8 +121,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yGtO14_L8htIWSPfFKru-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=0;fontSize=30;strokeWidth=2;" parent="1" source="fCJrFA04E1OlTgL_K1EE-4" target="lJQ5qOvf3uuoS-_8TY2C-12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="yGtO14_L8htIWSPfFKru-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontStyle=0;fontSize=30;strokeWidth=2;" parent="1" source="fCJrFA04E1OlTgL_K1EE-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1770" y="1070" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1413" y="625" />
+              <mxPoint x="1413" y="1070" />
+              <mxPoint x="1615" y="1070" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="yGtO14_L8htIWSPfFKru-28" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=0;fontSize=30;" parent="yGtO14_L8htIWSPfFKru-24" vertex="1" connectable="0">
           <mxGeometry x="-0.8254" y="1" relative="1" as="geometry">
@@ -150,13 +155,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fCJrFA04E1OlTgL_K1EE-15" value="Calculate percent value" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="1620" y="370" width="205" height="110" as="geometry" />
+          <mxGeometry x="1674" y="370" width="205" height="110" as="geometry" />
         </mxCell>
         <mxCell id="yGtO14_L8htIWSPfFKru-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=0;fontSize=30;" parent="1" source="fCJrFA04E1OlTgL_K1EE-16" target="fCJrFA04E1OlTgL_K1EE-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fCJrFA04E1OlTgL_K1EE-16" value="Send percent value via CAN" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="1617.5" y="570" width="210" height="80" as="geometry" />
+          <mxGeometry x="1671.5" y="570" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yGtO14_L8htIWSPfFKru-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=0;fontSize=30;strokeWidth=2;" parent="1" source="fCJrFA04E1OlTgL_K1EE-17" target="fCJrFA04E1OlTgL_K1EE-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -166,33 +171,29 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yGtO14_L8htIWSPfFKru-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;fontStyle=0;fontSize=30;strokeWidth=2;" parent="1" edge="1">
+        <mxCell id="96BJk-FDsPhYKM3DhWS0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1" source="fCJrFA04E1OlTgL_K1EE-17">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="569" y="1235" as="targetPoint" />
+            <mxPoint x="570" y="1660" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1536" y="775" />
-              <mxPoint x="1499" y="775" />
-              <mxPoint x="1499" y="1545" />
-              <mxPoint x="570" y="1545" />
-              <mxPoint x="570" y="1235" />
-              <mxPoint x="569" y="1235" />
+              <mxPoint x="1981" y="783" />
+              <mxPoint x="1981" y="1760" />
+              <mxPoint x="571" y="1760" />
             </Array>
-            <mxPoint x="1536.5" y="777.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yGtO14_L8htIWSPfFKru-36" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=30;fontStyle=0" parent="yGtO14_L8htIWSPfFKru-26" vertex="1" connectable="0">
-          <mxGeometry x="-0.8899" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="96BJk-FDsPhYKM3DhWS0-14" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=30;" vertex="1" connectable="0" parent="96BJk-FDsPhYKM3DhWS0-13">
+          <mxGeometry x="-0.9167" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fCJrFA04E1OlTgL_K1EE-17" value="Is this last&lt;br style=&quot;font-size: 30px;&quot;&gt;firmware data?" style="rhombus;whiteSpace=wrap;html=1;fontSize=30;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="1537.5" y="707.5" width="370" height="150" as="geometry" />
+          <mxGeometry x="1591.5" y="707.5" width="370" height="150" as="geometry" />
         </mxCell>
         <mxCell id="yGtO14_L8htIWSPfFKru-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=0;fontSize=30;strokeWidth=2;" parent="1" source="fCJrFA04E1OlTgL_K1EE-18" target="lJQ5qOvf3uuoS-_8TY2C-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fCJrFA04E1OlTgL_K1EE-18" value="Copy FOTA firmware to Current firmware" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="1572.5" y="940" width="300" height="100" as="geometry" />
+          <mxGeometry x="1626.5" y="940" width="300" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yGtO14_L8htIWSPfFKru-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontStyle=0;fontSize=30;strokeWidth=2;" parent="1" source="fCJrFA04E1OlTgL_K1EE-47" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -232,6 +233,39 @@
         </mxCell>
         <mxCell id="JgS2baNXHZ2gNzre4Ahj-1" value="CAN initialization&lt;br style=&quot;font-size: 30px;&quot;&gt;successful?" style="rhombus;whiteSpace=wrap;html=1;fontSize=30;" parent="1" vertex="1">
           <mxGeometry x="842.12" y="220" width="400" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="96BJk-FDsPhYKM3DhWS0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;endArrow=none;endFill=0;" edge="1" parent="1" source="96BJk-FDsPhYKM3DhWS0-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96BJk-FDsPhYKM3DhWS0-11" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=30;" vertex="1" connectable="0" parent="96BJk-FDsPhYKM3DhWS0-7">
+          <mxGeometry x="-0.5173" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96BJk-FDsPhYKM3DhWS0-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="96BJk-FDsPhYKM3DhWS0-1" target="96BJk-FDsPhYKM3DhWS0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96BJk-FDsPhYKM3DhWS0-12" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=30;" vertex="1" connectable="0" parent="96BJk-FDsPhYKM3DhWS0-9">
+          <mxGeometry x="-0.3566" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96BJk-FDsPhYKM3DhWS0-1" value="It contains factory reset request?" style="rhombus;whiteSpace=wrap;html=1;fontSize=30;fontStyle=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="824.45" y="1590" width="435.37" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="96BJk-FDsPhYKM3DhWS0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="96BJk-FDsPhYKM3DhWS0-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1770" y="1090" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1600" y="1663" />
+              <mxPoint x="1600" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="96BJk-FDsPhYKM3DhWS0-2" value="Copy Factory firmware to Current firmware" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontStyle=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="1592.5" width="230" height="145" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -754,23 +788,23 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Af6IpDw17OPJwLEYWDe5-1" value="Bootloader firmware&lt;br&gt;(10kB)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Af6IpDw17OPJwLEYWDe5-1" value="Bootloader firmware&lt;br&gt;(11kB)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="70" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Af6IpDw17OPJwLEYWDe5-2" value="FOTA firmware&lt;br&gt;(59kB)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="120" width="120" height="80" as="geometry" />
+        <mxCell id="Af6IpDw17OPJwLEYWDe5-2" value="Current firmware&lt;br&gt;(39kB)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="120" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Af6IpDw17OPJwLEYWDe5-3" value="Current firmware&lt;br&gt;(59kB)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="200" width="120" height="80" as="geometry" />
+        <mxCell id="Af6IpDw17OPJwLEYWDe5-3" value="Factory firmware&lt;br&gt;(39kB)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="220" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Af6IpDw17OPJwLEYWDe5-4" value="0x08000000" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="145" y="60" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Af6IpDw17OPJwLEYWDe5-5" value="0x08002800" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="Af6IpDw17OPJwLEYWDe5-5" value="0x08002C00" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="145" y="110" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Af6IpDw17OPJwLEYWDe5-6" value="0x08011400" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="145" y="180" width="90" height="30" as="geometry" />
+        <mxCell id="Af6IpDw17OPJwLEYWDe5-6" value="0x08000C00" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="145" y="160" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Af6IpDw17OPJwLEYWDe5-7" value="" style="endArrow=none;html=1;rounded=0;jumpSize=6;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -922,29 +956,35 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k0Q0SCQxpnscIQgngLCZ-1" value="STM32" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="k0Q0SCQxpnscIQgngLCZ-1" value="STM32" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="260" y="310" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k0Q0SCQxpnscIQgngLCZ-3" value="Current firmware&lt;br&gt;(14kB)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="k0Q0SCQxpnscIQgngLCZ-3" value="Current firmware&lt;br&gt;(14kB)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="70" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="k0Q0SCQxpnscIQgngLCZ-4" value="FOTA firmware&lt;br&gt;(14kB)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="k0Q0SCQxpnscIQgngLCZ-4" value="FOTA firmware&lt;br&gt;(14kB)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="150" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="k0Q0SCQxpnscIQgngLCZ-5" value="0x0000" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="k0Q0SCQxpnscIQgngLCZ-5" value="0x0000" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="60" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k0Q0SCQxpnscIQgngLCZ-6" value="0x7000" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="k0Q0SCQxpnscIQgngLCZ-6" value="0x7000" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="210" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k0Q0SCQxpnscIQgngLCZ-7" value="0x3800" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="k0Q0SCQxpnscIQgngLCZ-7" value="0x3800" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="130" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k0Q0SCQxpnscIQgngLCZ-8" value="ATMEGA328P" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="k0Q0SCQxpnscIQgngLCZ-8" value="ATMEGA328P" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="540" y="310" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k0Q0SCQxpnscIQgngLCZ-9" value="Bootloader firmware&lt;br&gt;(4kB)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="k0Q0SCQxpnscIQgngLCZ-9" value="Bootloader firmware&lt;br&gt;(4kB)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="COVtROpQgWQNco2UpVlK-1" value="FOTA firmware&lt;br&gt;(39kB)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="170" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="COVtROpQgWQNco2UpVlK-2" value="0x08016400" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="210" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
